@@ -60,7 +60,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-xs text-white/40 uppercase font-black tracking-widest">Email</p>
-                  <p className="text-white font-medium">{import.meta.env.VITE_CONTACT_EMAIL}</p>
+                  <p className="text-white font-medium">joeljobi371@gmail.com</p>
                 </div>
               </div>
 
@@ -76,9 +76,9 @@ const Contact = () => {
             </div>
 
             <div className="glass p-8 border-white/5 flex justify-between px-12">
-              <motion.a whileHover={{ y: -5, color: '#6366f1' }} href={import.meta.env.VITE_GITHUB_URL} target="_blank" rel="noopener noreferrer" className="text-white/40"><FaGithub size={28} /></motion.a>
-              <motion.a whileHover={{ y: -5, color: '#a855f7' }} href={import.meta.env.VITE_LINKEDIN_URL} target="_blank" rel="noopener noreferrer" className="text-white/40"><FaLinkedin size={28} /></motion.a>
-              <motion.a whileHover={{ y: -5, color: '#ec4899' }} href={import.meta.env.VITE_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="text-white/40"><FaInstagram size={28} /></motion.a>
+              <motion.a whileHover={{ y: -5, color: '#6366f1' }} href="https://github.com/Selvajoel" target="_blank" rel="noopener noreferrer" className="text-white/40"><FaGithub size={28} /></motion.a>
+              <motion.a whileHover={{ y: -5, color: '#a855f7' }} href="https://www.linkedin.com/in/selvajoel-s-320770344" target="_blank" rel="noopener noreferrer" className="text-white/40"><FaLinkedin size={28} /></motion.a>
+              <motion.a whileHover={{ y: -5, color: '#ec4899' }} href="https://www.instagram.com/j0elllllll" target="_blank" rel="noopener noreferrer" className="text-white/40"><FaInstagram size={28} /></motion.a>
             </div>
           </div>
 
