@@ -21,10 +21,10 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.sendForm(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID,
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      'service_0to3uom',
+      'template_dxvuj6d',
       formRef.current,
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      '65GHWE_hXHXqEMHNM'
     )
       .then(() => {
         setLoading(false);
