@@ -59,8 +59,8 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
-            <motion.a whileHover={{ y: -2 }} href="https://github.com/Selvajoel" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white"><FaGithub size={20} /></motion.a>
-            <motion.a whileHover={{ y: -2 }} href="https://www.linkedin.com/in/selvajoel-s-320770344" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white"><FaLinkedin size={20} /></motion.a>
+            <motion.a whileHover={{ y: -2 }} href={import.meta.env.VITE_GITHUB_URL} target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white"><FaGithub size={20} /></motion.a>
+            <motion.a whileHover={{ y: -2 }} href={import.meta.env.VITE_LINKEDIN_URL} target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white"><FaLinkedin size={20} /></motion.a>
             <a href="/Selvajoel_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-primary py-2 px-6 text-sm inline-block">Resume</a>
           </div>
 
@@ -104,9 +104,9 @@ const Navbar = () => {
               </a>
             ))}
             <div className="flex space-x-8 pt-8 border-t border-white/10 w-48 justify-center">
-              <a href="https://github.com/Selvajoel" target="_blank" rel="noopener noreferrer"><FaGithub size={24} className="text-white/60 hover:text-white" /></a>
-              <a href="https://www.linkedin.com/in/selvajoel-s-320770344" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} className="text-white/60 hover:text-white" /></a>
-              <a href="https://www.instagram.com/j0elllllll?igsh=MXIwYTYxbXl2YmZlbw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer"><FaInstagram size={24} className="text-white/60 hover:text-white" /></a>
+              <a href={import.meta.env.VITE_GITHUB_URL} target="_blank" rel="noopener noreferrer"><FaGithub size={24} className="text-white/60 hover:text-white" /></a>
+              <a href={import.meta.env.VITE_LINKEDIN_URL} target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} className="text-white/60 hover:text-white" /></a>
+              <a href={import.meta.env.VITE_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer"><FaInstagram size={24} className="text-white/60 hover:text-white" /></a>
             </div>
           </motion.div>
         )}

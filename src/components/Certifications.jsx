@@ -4,7 +4,7 @@ import { Award, CheckCircle, ShieldCheck, Trophy, PieChart, FileSearch } from 'l
 
 const Certifications = () => {
   const certifications = [
-    { title: "Google Data Analytics", icon: <Award className="text-primary" />, provider: "Coursera", desc: "Professional certificate covering the entire data analysis process." },
+    { title: "Data Analytics", icon: <Award className="text-primary" />, provider: "Coursera", desc: "Professional certificate covering the entire data analysis process." },
     { title: "Power BI Data Analyst", icon: <PieChart className="text-secondary" />, provider: "Microsoft", desc: "Expertise in data modeling, visualization, and analysis using Power BI." },
     { title: "SQL for Data Science", icon: <FileSearch className="text-accent" />, provider: "Cognitive Class", desc: "Advanced SQL techniques for data manipulation and extraction." },
     { title: "Python for Data Analysis", icon: <ShieldCheck className="text-primary" />, provider: "IBM", desc: "Working with Pandas, NumPy, and Matplotlib for data insights." },
@@ -57,7 +57,6 @@ const Certifications = () => {
                 </div>
                 <div>
                   <h4 className="font-bold font-outfit mb-1">{cert.title}</h4>
-                  <p className="text-[10px] text-primary font-bold uppercase tracking-widest mb-2">{cert.provider}</p>
                   <p className="text-xs text-white/40 leading-relaxed line-clamp-2">{cert.desc}</p>
                 </div>
               </motion.div>
